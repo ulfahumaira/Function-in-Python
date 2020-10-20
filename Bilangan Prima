@@ -1,0 +1,10 @@
+#fungsi bilangan prima
+def prime (bilangan):
+    a=0
+    for i in range (1,(bilangan+1)):
+        if(bilangan % i == 0):
+            a+=1
+    if (a==2):
+        return "prime"
+    else:
+        return "not prime"
